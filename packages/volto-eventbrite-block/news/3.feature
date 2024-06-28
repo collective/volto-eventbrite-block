@@ -1,1 +1,0 @@
-Support i18n for edit placeholder text [@ericof]
