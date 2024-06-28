@@ -36,6 +36,11 @@ msgstr "Comprar ingressos na Eventbritte"
 msgid "Buy tickets"
 msgstr "Comprar ingressos"
 
+#. Default: "Checkout Eventbrite"
+#: components/Blocks/Checkout/DefaultView
+msgid "Checkout Eventbrite"
+msgstr "Eventbrite Checkout"
+
 #. Default: "Event ID"
 #: components/Blocks/Checkout/schema
 msgid "Event ID"
@@ -50,6 +55,11 @@ msgstr "Checkout Eventbrite"
 #: components/Blocks/Checkout/schema
 msgid "Fallback URL"
 msgstr "URL fallback"
+
+#. Default: "Please, inform the Event ID"
+#: components/Blocks/Checkout/DefaultView
+msgid "Please, inform the Event ID"
+msgstr "Por favor, informe o ID do evento"
 
 #. Default: "Text"
 #: components/Blocks/Checkout/schema

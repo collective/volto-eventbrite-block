@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Container } from '@plone/components';
 import './styles.scss';
 
@@ -73,7 +74,20 @@ const CheckoutView = (props) => {
               {buttonText}
             </button>
           ) : (
-            <span className={'placeholder'}>Eventbrite Checkout</span>
+            <>
+              <div className={'placeholder header'}>
+                <FormattedMessage
+                  id="Checkout Eventbrite"
+                  defaultMessage="Checkout Eventbrite"
+                />
+              </div>
+              <span className={'placeholder text'}>
+                <FormattedMessage
+                  id="Please, inform the Event ID"
+                  defaultMessage="Please, inform the Event ID"
+                />
+              </span>
+            </>
           )}
         </Container>
       ) : (

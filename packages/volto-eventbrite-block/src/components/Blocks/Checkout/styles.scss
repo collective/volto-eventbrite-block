@@ -9,17 +9,25 @@
   --eventbrite-cta-hover-border: #9e2e05;
   --eventbrite-cta-hover-font-size: 18px;
   --eventbrite-cta-hover-font-weight: 500;
+  --eventbrite-placeholder-header-font-size: 20px;
+  --eventbrite-placeholder-header-font-weight: 700;
+  --eventbrite-placeholder-text-font-size: var(--eventbrite-cta-font-size);
+  --eventbrite-placeholder-text-font-weight: var(--eventbrite-cta-font-weight);
 }
 
 .block.checkoutBlock {
   .wrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     .placeholder {
-      padding: var(--eventbrite-cta-padding);
-      margin-right: auto;
-      margin-left: auto;
-      font-size: var(--eventbrite-cta-font-size);
-      font-weight: var(--eventbrite-cta-font-weight);
+      font-size: var(--eventbrite-placeholder-text-font-size);
+      font-weight: var(--eventbrite-placeholder-text-font-weight);
+      &.header {
+        padding: var(--eventbrite-cta-padding);
+        font-size: var(--eventbrite-placeholder-header-font-size);
+        font-weight: var(--eventbrite-placeholder-header-font-weight);
+      }
     }
     .eventbrite-cta {
       padding: var(--eventbrite-cta-padding);
