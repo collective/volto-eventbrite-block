@@ -25,23 +25,15 @@ const loadScript = (callback) => {
 const CheckoutView = (props) => {
   const { isEditMode, data, className } = props;
   const { eventId, buttonText } = data;
+  const isValidId = /^\d+$/.test(eventId);
   const align = data.align ? data.align : 'left';
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
     loadScript(setLoaded);
-    return () => {
-      const wrapper = document.getElementById('tito-wrapper');
-      if (wrapper) {
-        const iframes = wrapper.querySelectorAll('iframe');
-        iframes.forEach((element) => {
-          element.remove();
-        });
-      }
-    };
   }, [loaded]);
 
   useEffect(() => {
-    if (loaded && typeof window !== 'undefined') {
+    if (loaded && eventId && isValidId && typeof window !== 'undefined') {
       window.EBWidgets.createWidget({
         widgetType: 'checkout',
         eventId: eventId,
@@ -49,7 +41,7 @@ const CheckoutView = (props) => {
         modalTriggerElementId: `eventbrite-widget-modal-trigger-${eventId}`,
       });
     }
-  }, [loaded, eventId]);
+  }, [loaded, isValidId, eventId]);
   return (
     <Container className={`block checkoutBlock ${className}`}>
       {loaded ? (
@@ -65,7 +57,7 @@ const CheckoutView = (props) => {
               </a>
             </noscript>
           )}
-          {eventId ? (
+          {eventId && isValidId ? (
             <button
               id={`eventbrite-widget-modal-trigger-${eventId}`}
               className={`eventbrite-cta ${align}`}
