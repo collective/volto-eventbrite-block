@@ -1,1 +1,0 @@
-Add Eventbrite checkout block. [@ericof]

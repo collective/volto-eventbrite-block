@@ -1,6 +1,6 @@
 {
   "name": "@plone-collective/volto-eventbrite-block",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Integrate an Eventbrite checkout to your Plone site",
   "main": "src/index.js",
   "license": "MIT",

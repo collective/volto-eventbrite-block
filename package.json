@@ -1,8 +1,8 @@
 {
   "name": "@plone-collective/volto-eventbrite-block-dev",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Integrate an Eventbrite checkout to your Plone site",
-  "author": "Érico Andrei",
+  "author": "\u00c9rico Andrei",
   "homepage": "https://github.com/collective/volto-eventbrite-block",
   "license": "MIT",
   "keywords": [
