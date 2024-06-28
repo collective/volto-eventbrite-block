@@ -1,0 +1,1 @@
+Convert block icon to gray [@ericof]
