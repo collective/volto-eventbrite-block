@@ -1,0 +1,53 @@
+:root {
+  --eventbrite-cta-background-color: #d1410c;
+  --eventbrite-cta-border: #d1410c;
+  --eventbrite-cta-text-color: #ffffff;
+  --eventbrite-cta-padding: 10px 20px;
+  --eventbrite-cta-font-size: 18px;
+  --eventbrite-cta-font-weight: 500;
+  --eventbrite-cta-hover-background-color: #9e2e05;
+  --eventbrite-cta-hover-border: #9e2e05;
+  --eventbrite-cta-hover-font-size: 18px;
+  --eventbrite-cta-hover-font-weight: 500;
+}
+
+.block.checkoutBlock {
+  .wrapper {
+    display: flex;
+    .placeholder {
+      padding: var(--eventbrite-cta-padding);
+      margin-right: auto;
+      margin-left: auto;
+      font-size: var(--eventbrite-cta-font-size);
+      font-weight: var(--eventbrite-cta-font-size);
+    }
+    .eventbrite-cta {
+      padding: var(--eventbrite-cta-padding);
+      border: var(--eventbrite-cta-border);
+      background-color: var(--eventbrite-cta-background-color);
+      color: var(--eventbrite-cta-text-color);
+      cursor: pointer;
+      font-size: var(--eventbrite-cta-font-size);
+      font-weight: var(--eventbrite-cta-font-size);
+
+      &.left {
+        margin-right: auto;
+        margin-left: 0px;
+      }
+      &.center {
+        margin-right: auto;
+        margin-left: auto;
+      }
+      &.right {
+        margin-right: 0px;
+        margin-left: auto;
+      }
+      &:hover {
+        border: var(--eventbrite-cta-hover-border);
+        background-color: var(--eventbrite-cta-hover-background-color);
+        font-size: var(--eventbrite-cta-hover-font-size);
+        font-weight: var(--eventbrite-cta-hover-font-weight);
+      }
+    }
+  }
+}

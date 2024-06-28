@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. Default: "Alignment"
+#: components/Blocks/Checkout/schema
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Button CTA"
+#: components/Blocks/Checkout/schema
+msgid "Button CTA"
+msgstr ""
+
+#. Default: "Buy Tickets on Eventbrite"
+#: components/Blocks/Checkout/schema
+msgid "Buy Tickets on Eventbrite"
+msgstr ""
+
+#. Default: "Buy tickets"
+#: components/Blocks/Checkout/schema
+msgid "Buy tickets"
+msgstr ""
+
+#. Default: "Event ID"
+#: components/Blocks/Checkout/schema
+msgid "Event ID"
+msgstr ""
+
+#. Default: "Eventbrite Checkout"
+#: components/Blocks/Checkout/schema
+msgid "Eventbrite Checkout"
+msgstr ""
+
+#. Default: "Fallback URL"
+#: components/Blocks/Checkout/schema
+msgid "Fallback URL"
+msgstr ""
+
+#. Default: "Text"
+#: components/Blocks/Checkout/schema
+msgid "Text"
+msgstr ""

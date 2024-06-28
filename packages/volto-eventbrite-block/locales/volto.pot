@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"POT-Creation-Date: 2024-06-28T13:05:14.933Z\n"
+"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: volto\n"
+
+#. Default: "Alignment"
+#: components/Blocks/Checkout/schema
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Button CTA"
+#: components/Blocks/Checkout/schema
+msgid "Button CTA"
+msgstr ""
+
+#. Default: "Buy Tickets on Eventbrite"
+#: components/Blocks/Checkout/schema
+msgid "Buy Tickets on Eventbrite"
+msgstr ""
+
+#. Default: "Buy tickets"
+#: components/Blocks/Checkout/schema
+msgid "Buy tickets"
+msgstr ""
+
+#. Default: "Event ID"
+#: components/Blocks/Checkout/schema
+msgid "Event ID"
+msgstr ""
+
+#. Default: "Eventbrite Checkout"
+#: components/Blocks/Checkout/schema
+msgid "Eventbrite Checkout"
+msgstr ""
+
+#. Default: "Fallback URL"
+#: components/Blocks/Checkout/schema
+msgid "Fallback URL"
+msgstr ""
+
+#. Default: "Text"
+#: components/Blocks/Checkout/schema
+msgid "Text"
+msgstr ""
