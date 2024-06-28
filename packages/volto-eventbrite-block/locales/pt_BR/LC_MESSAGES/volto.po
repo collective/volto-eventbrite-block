@@ -27,11 +27,13 @@ msgid "Button CTA"
 msgstr "Texto do botão"
 
 #. Default: "Buy Tickets on Eventbrite"
+#: components/Blocks/Checkout/Data
 #: components/Blocks/Checkout/schema
 msgid "Buy Tickets on Eventbrite"
 msgstr "Comprar ingressos na Eventbritte"
 
 #. Default: "Buy tickets"
+#: components/Blocks/Checkout/Data
 #: components/Blocks/Checkout/schema
 msgid "Buy tickets"
 msgstr "Comprar ingressos"

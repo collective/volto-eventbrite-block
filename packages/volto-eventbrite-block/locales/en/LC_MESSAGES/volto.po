@@ -22,11 +22,13 @@ msgid "Button CTA"
 msgstr ""
 
 #. Default: "Buy Tickets on Eventbrite"
+#: components/Blocks/Checkout/Data
 #: components/Blocks/Checkout/schema
 msgid "Buy Tickets on Eventbrite"
 msgstr ""
 
 #. Default: "Buy tickets"
+#: components/Blocks/Checkout/Data
 #: components/Blocks/Checkout/schema
 msgid "Buy tickets"
 msgstr ""

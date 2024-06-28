@@ -36,12 +36,6 @@ const messages = defineMessages({
 });
 
 export const checkoutSchema = (props) => {
-  const buttonTextPlaceholder = props.intl.formatMessage(
-    messages.buttonTextPlaceholder,
-  );
-  const fallbackText = props.intl.formatMessage(
-    messages.fallbackTextPlaceholder,
-  );
   return {
     title: props.intl.formatMessage(messages.title),
     fieldsets: [
@@ -62,7 +56,7 @@ export const checkoutSchema = (props) => {
       },
       buttonText: {
         title: props.intl.formatMessage(messages.buttonText),
-        default: buttonTextPlaceholder,
+        default: props.buttonTextPlaceholder,
       },
       align: {
         title: props.intl.formatMessage(messages.align),
@@ -75,7 +69,7 @@ export const checkoutSchema = (props) => {
       },
       fallbackText: {
         title: props.intl.formatMessage(messages.fallbackText),
-        default: fallbackText,
+        default: props.fallbackText,
       },
     },
     required: ['eventId'],
