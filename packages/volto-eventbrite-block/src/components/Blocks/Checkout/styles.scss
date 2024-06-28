@@ -19,7 +19,7 @@
       margin-right: auto;
       margin-left: auto;
       font-size: var(--eventbrite-cta-font-size);
-      font-weight: var(--eventbrite-cta-font-size);
+      font-weight: var(--eventbrite-cta-font-weight);
     }
     .eventbrite-cta {
       padding: var(--eventbrite-cta-padding);
@@ -28,7 +28,7 @@
       color: var(--eventbrite-cta-text-color);
       cursor: pointer;
       font-size: var(--eventbrite-cta-font-size);
-      font-weight: var(--eventbrite-cta-font-size);
+      font-weight: var(--eventbrite-cta-font-weight);
 
       &.left {
         margin-right: auto;
